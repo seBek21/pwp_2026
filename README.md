@@ -56,6 +56,49 @@ Nieobecność na zajęciach nie oznacza automatycznie utraty możliwości wykona
 
 ---
 
+## Oddawanie zadań
+
+Rozwiązania zadań należy oddawać w formie repozytorium Git.
+
+### Preferowana forma — prywatne repozytorium
+
+Preferowaną formą oddawania zadań jest **prywatne repozytorium Git**, utworzone w ramach kursu.
+
+Repozytorium powinno zawierać strukturę odpowiadającą poszczególnym ćwiczeniom, np.:
+
+```text
+/
+├── 01/
+│   ├── README.md
+│   ├── zadanie_01.py
+│   ├── zadanie_02.py
+│   ├── zadanie_03.py
+│   ├── zadanie_04.py
+│   └── zadanie_05.py
+├── 02/
+│   └── ...
+└── ...
+```
+
+Do prywatnego repozytorium należy **dodać prowadzącego jako współpracownika (collaborator)**. Dzięki temu prowadzący będzie miał dostęp do rozwiązania i będzie mógł sprawdzić wykonane zadania.
+
+### Zasady
+
+- Repozytorium powinno być **prywatne**.
+- Prowadzący powinien zostać dodany jako **collaborator**.
+- Rozwiązania powinny znajdować się w odpowiednich plikach `.py`.
+- Należy zachować nazwy plików oraz strukturę katalogów przygotowaną dla ćwiczenia.
+- Zalecane jest regularne wykonywanie commitów, tak aby historia zmian pokazywała postęp pracy.
+- Do oceny brana jest pod uwagę zawartość repozytorium w terminie wskazanym przez prowadzącego.
+
+### Alternatywna forma oddania
+
+Jeżeli utworzenie prywatnego repozytorium lub dodanie prowadzącego jako współpracownika nie jest możliwe, sposób oddania należy ustalić z prowadzącym.
+
+> **Uwaga:** samo przesłanie pojedynczych plików `.py` nie jest preferowaną formą oddawania zadań.
+
+---
+
 # Test praktyczny
 
 Po **czwartym ćwiczeniu** odbywa się pierwszy test praktyczny.
