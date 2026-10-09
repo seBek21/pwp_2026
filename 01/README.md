@@ -910,9 +910,7 @@ W każdym zadaniu rozwiązanie należy umieścić w odpowiednim pliku `.py`.
 
 Wyznacz wartość wyrażenia:
 
-\[
-10^2 + \frac{136}{4.15}\cdot\sqrt{2}
-\]
+10^2 + (136 / 4.15) * sqrt(2)
 
 Wynik zapisz do zmiennej:
 
