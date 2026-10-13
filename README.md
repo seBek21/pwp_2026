@@ -212,224 +212,45 @@ Student powinien potrafić:
 
 ---
 
-# 02 — Kolekcje i operacje na danych
+## **02 — Instrukcje warunkowe, pętle, definiowanie funkcji**
 
-### Zagadnienia
+### **Zagadnienia**
 
-- napisy (`str`),
-- listy (`list`),
-- krotki (`tuple`),
-- słowniki (`dict`),
-- zbiory (`set`),
-- indeksowanie,
-- wycinanie fragmentów danych,
-- dodawanie i usuwanie elementów,
-- podstawowe metody kolekcji,
-- operatory `in` oraz `not in`,
-- mutowalność i niemutowalność podstawowych typów.
+- instrukcje warunkowe:
+  - `if`,
+  - `elif`,
+  - `else`,
+- zagnieżdżanie instrukcji warunkowych,
+- operatory logiczne w warunkach,
+- pętle:
+  - `for`,
+  - `while`,
+- funkcja `range()`,
+- sterowanie przebiegiem pętli:
+  - `break`,
+  - `continue`,
+- zagnieżdżanie pętli,
+- definiowanie funkcji za pomocą `def`,
+- parametry i argumenty funkcji,
+- zwracanie wartości za pomocą `return`,
+- zmienne lokalne i globalne,
+- wywoływanie funkcji.
 
-### Przykładowe umiejętności
-
-Student powinien potrafić:
-
-- utworzyć i zmodyfikować listę,
-- odczytać element kolekcji,
-- wyszukać element,
-- iterować po podstawowych strukturach danych,
-- wykorzystać słownik do przechowywania powiązanych informacji,
-- wykonywać podstawowe operacje na napisach.
-
----
-
-# 03 — Instrukcje sterujące i funkcje
-
-### Zagadnienia
-
-- `if`,
-- `elif`,
-- `else`,
-- zagnieżdżone instrukcje warunkowe,
-- pętla `for`,
-- pętla `while`,
-- `break`,
-- `continue`,
-- `range()`,
-- definiowanie funkcji,
-- wywoływanie funkcji,
-- argumenty funkcji,
-- wartość zwracana przez `return`.
-
-### Przykładowe umiejętności
+### **Przykładowe umiejętności**
 
 Student powinien potrafić:
 
-- sterować wykonaniem programu,
-- wykonać operację dla wielu elementów,
-- zastosować odpowiednią pętlę,
-- napisać prostą funkcję,
-- przekazać argument do funkcji,
-- zwrócić wynik z funkcji.
-
----
-
-# 04 — Funkcje, kolekcje i przetwarzanie danych
-
-### Zagadnienia
-
-- parametry funkcji,
-- parametry opcjonalne,
-- zakres zmiennych,
-- wartości domyślne,
-- funkcje anonimowe,
-- `lambda`,
-- `map()`,
-- `filter()`,
-- `zip()`,
-- list comprehensions,
-- łączenie funkcji i kolekcji,
-- bardziej złożone operacje na listach i słownikach.
-
-### Przykładowe umiejętności
-
-Student powinien potrafić:
-
-- tworzyć funkcje przyjmujące wiele parametrów,
-- stosować wartości domyślne,
-- przetwarzać kolekcje za pomocą funkcji,
-- tworzyć listy z wykorzystaniem list comprehensions,
-- wykorzystać `lambda`, `map()`, `filter()` i `zip()` w prostych problemach.
-
----
-
-# 05 — Wejście/wyjście, pliki i moduły
-
-### Zagadnienia
-
-- wejście i wyjście,
-- praca z plikami tekstowymi,
-- `open()`,
-- tryby otwierania plików,
-- odczytywanie plików,
-- zapisywanie plików,
-- `read()`,
-- `readline()`,
-- `readlines()`,
-- iterowanie po pliku,
-- instrukcja `with`,
-- importowanie modułów,
-- moduły:
-  - `math`,
-  - `random`,
-  - `time`,
-  - `sys`.
-
-### Przykładowe umiejętności
-
-Student powinien potrafić:
-
-- odczytać dane z pliku,
-- zapisać wynik do pliku,
-- przetworzyć plik linia po linii,
-- wykorzystać podstawowy moduł biblioteki standardowej,
-- przekazać argumenty programu przez `sys.argv`.
-
----
-
-# 06 — Wyjątki, system plików i daty
-
-### Zagadnienia
-
-- błędy i wyjątki,
-- `try`,
-- `except`,
-- `else`,
-- `finally`,
-- przechwytywanie konkretnych wyjątków,
-- tworzenie własnych wyjątków,
-- `raise`,
-- moduł `os`,
-- pliki i katalogi,
-- ścieżki,
-- podstawowe operacje na systemie plików,
-- moduł `datetime`,
-- daty i czas.
-
-### Przykładowe umiejętności
-
-Student powinien potrafić:
-
-- rozpoznać podstawowe błędy programu,
-- bezpiecznie obsłużyć wyjątek,
-- wygenerować własny wyjątek,
-- sprawdzić istnienie pliku lub katalogu,
-- pracować ze ścieżkami,
-- wykonać podstawowe operacje na plikach i katalogach,
-- wykonywać proste operacje na datach.
-
----
-
-# 07 — Przetwarzanie tekstu i wyrażenia regularne
-
-### Zagadnienia
-
-- zaawansowane operacje na napisach,
-- wyszukiwanie fragmentów tekstu,
-- zamiana fragmentów tekstu,
-- podział tekstu,
-- składanie tekstu,
-- formatowanie napisów,
-- moduł `re`,
-- wyrażenia regularne,
-- wzorce,
-- `search()`,
-- `match()`,
-- `findall()`,
-- `sub()`,
-- grupy w wyrażeniach regularnych.
-
-### Przykładowe zastosowania
-
-Ćwiczenia powinny wykorzystywać przykłady związane z przetwarzaniem danych biologicznych, np.:
-
-- sekwencje DNA,
-- identyfikatory,
-- proste formaty danych,
-- wyszukiwanie motywów,
-- ekstrakcję informacji z tekstu.
-
-Student powinien potrafić wykorzystać wyrażenia regularne do znalezienia i przetworzenia określonych wzorców w tekście.
-
----
-
-# 08 — Programowanie obiektowe i powtórzenie
-
-### Zagadnienia
-
-- podstawy programowania obiektowego,
-- klasy,
-- obiekty,
-- atrybuty,
-- metody,
-- `__init__()`,
-- `__str__()`,
-- enkapsulacja,
-- dziedziczenie,
-- podstawowe metody specjalne,
-- organizacja kodu,
-- łączenie poznanych wcześniej konstrukcji.
-
-Ostatnie ćwiczenie powinno również służyć jako **powtórzenie materiału przed testem końcowym**.
-
-### Przykładowe umiejętności
-
-Student powinien potrafić:
-
-- zdefiniować prostą klasę,
-- utworzyć obiekt,
-- zdefiniować atrybuty i metody,
-- wykorzystać konstruktor `__init__()`,
-- zdefiniować prostą relację dziedziczenia,
-- połączyć OOP z poznanymi wcześniej konstrukcjami języka.
+- zastosować instrukcję warunkową do podejmowania decyzji w programie,
+- tworzyć warunki złożone z wykorzystaniem operatorów logicznych,
+- wykorzystać pętlę `for` do wielokrotnego wykonywania instrukcji,
+- wykorzystać pętlę `while` do wykonywania instrukcji zależnie od warunku,
+- generować sekwencje liczb za pomocą `range()`,
+- sterować przebiegiem pętli za pomocą `break` i `continue`,
+- definiować i wywoływać własne funkcje,
+- przekazywać argumenty do funkcji,
+- zwracać wyniki działania funkcji za pomocą `return`,
+- rozróżniać zmienne lokalne i globalne,
+- łączyć instrukcje warunkowe, pętle i funkcje w jednym programie.
 
 ---
 
