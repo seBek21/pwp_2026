@@ -562,7 +562,7 @@ Pamiętaj o dwukropku po `if`, `elif`, `else`, `for`, `while` i nagłówku `def`
 
 ## 5. Zadania do wykonania
 
-#### Zadanie 1 — Klasyfikacja temperatury
+### Zadanie 1 — Klasyfikacja temperatury
 
 Napisz program, który pobiera temperaturę w stopniach Celsjusza i klasyfikuje ją według następujących reguł:
 
@@ -576,7 +576,7 @@ Umieść klasyfikację w funkcji `klasyfikuj_temperature(t)`, która **zwraca** 
 **Sprawdź:** `-5`, `0`, `14.9`, `15`, `25`, `25.1`.
 
 
-#### Zadanie 2 — Suma liczb spełniających warunek
+### Zadanie 2 — Suma liczb spełniających warunek
 
 Napisz funkcję `suma_podzielnych(n, k)`, która oblicza sumę dodatnich liczb całkowitych nie większych niż `n`, podzielnych przez `k`.
 
@@ -588,9 +588,8 @@ Napisz funkcję `suma_podzielnych(n, k)`, która oblicza sumę dodatnich liczb c
 **Przykład:** dla `n = 10` i `k = 3` wynik wynosi `18` (`3 + 6 + 9`).
 
 
-### Zadania rozszerzone (3–5)
 
-#### Zadanie 3 — Analiza liczby pierwszej
+### Zadanie 3 — Analiza liczby pierwszej
 
 Napisz program, który pobiera dwie dodatnie liczby całkowite `a` i `b`, a następnie znajduje wszystkie liczby pierwsze w przedziale domkniętym od `a` do `b`.
 
@@ -631,7 +630,7 @@ Załóż, że populacja bakterii początkowo liczy `N0` komórek i co godzinę z
 
     Populacja osiągnęła wartość docelową po 3 godzinach.
 
-#### Zadanie 5 — Prosty analizator sekwencji DNA
+### Zadanie 5 — Prosty analizator sekwencji DNA
 
 Napisz program, który pobiera od użytkownika sekwencję DNA i analizuje jej skład nukleotydowy. Załóż, że poprawna sekwencja składa się wyłącznie z liter `A`, `T`, `G`, `C` (małe litery również są dopuszczalne).
 
