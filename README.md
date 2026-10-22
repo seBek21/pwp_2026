@@ -254,6 +254,49 @@ Student powinien potrafić:
 
 ---
 
+## **03 — Wejście/wyjście, pliki tekstowe, math, random, time**
+
+### **Zagadnienia**
+
+- pobieranie danych od użytkownika za pomocą `input()`,
+- konwersja i sprawdzanie poprawności danych wejściowych,
+- wyświetlanie i formatowanie wyników za pomocą `print()` oraz f-stringów,
+- podstawowa obsługa błędnych danych przez `try` i `except`,
+- ścieżki względne i katalog roboczy programu,
+- otwieranie plików za pomocą `open()` i konstrukcji `with`,
+- tryby otwierania plików: odczyt, zapis i dopisywanie,
+- kodowanie plików tekstowych — UTF-8,
+- odczytywanie całej zawartości pliku i przetwarzanie wiersz po wierszu,
+- przetwarzanie tekstu za pomocą `strip()`, `split()` i `join()`,
+- numerowanie wierszy za pomocą `enumerate()`,
+- zapisywanie wyników i raportów do plików tekstowych,
+- importowanie modułów biblioteki standardowej,
+- obliczenia matematyczne z wykorzystaniem modułu `math`,
+- losowanie liczb i elementów kolekcji za pomocą modułu `random`,
+- ustawianie ziarna generatora i powtarzalność losowań,
+- pomiar czasu wykonania programu za pomocą `time.perf_counter()`,
+- wprowadzanie opóźnień przez `time.sleep()`,
+- zapisywanie daty i godziny za pomocą `time.strftime()`.
+
+### **Przykładowe umiejętności**
+
+Student powinien potrafić:
+
+- pobrać dane od użytkownika i sprawdzić ich poprawność,
+- przedstawić wyniki w czytelnej, sformatowanej postaci,
+- wczytać dane z pliku tekstowego,
+- przetwarzać plik wiersz po wierszu i rozdzielać dane na pola,
+- rozpoznawać i pomijać niepoprawne dane,
+- zapisać wyniki do nowego pliku lub dopisać je do istniejącego,
+- wykorzystać moduł `math` do obliczeń matematycznych,
+- losować liczby i elementy kolekcji,
+- odtworzyć serię losowań przy użyciu tego samego ziarna,
+- zmierzyć czas wykonania wybranego fragmentu programu,
+- oznaczyć zapisane wyniki datą i godziną,
+- łączyć operacje wejścia/wyjścia z warunkami, pętlami, funkcjami i kolekcjami.
+
+---
+
 # Organizacja katalogów
 
 Każde ćwiczenie znajduje się w osobnym katalogu:
