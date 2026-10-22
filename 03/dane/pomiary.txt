@@ -1,0 +1,7 @@
+# Pomiary przykładowe — jedna wartość w wierszu
+10.0
+12.0
+
+14.0
+16.0
+# Koniec pomiarów
