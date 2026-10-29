@@ -297,6 +297,51 @@ Student powinien potrafić:
 
 ---
 
+## **04 — Rekurencja, przetwarzanie kolekcji, sys i kopiowanie danych**
+
+### **Zagadnienia**
+
+- rekurencja — wywoływanie funkcji przez samą siebie,
+- warunek bazowy i krok rekurencyjny,
+- porównanie podejścia rekurencyjnego i iteracyjnego,
+- rekurencyjne przetwarzanie zagnieżdżonych list,
+- sprawdzanie typu obiektu za pomocą `isinstance()`,
+- wyrażenia lambda i przekazywanie funkcji jako argumentów,
+- sortowanie za pomocą `sorted()` i parametru `key`,
+- sortowanie według kilku kryteriów,
+- listy składane — przekształcanie, filtrowanie i zagnieżdżanie,
+- przetwarzanie elementów za pomocą `map()`,
+- wybieranie elementów za pomocą `filter()`,
+- łączenie kolekcji za pomocą `zip()`,
+- iteratory i ich jednorazowe zużywanie,
+- argumenty programu przekazywane przez `sys.argv`,
+- rozmiar obiektów i ograniczenia pomiaru przez `sys.getsizeof()`,
+- odczytywanie limitu rekurencji przez `sys.getrecursionlimit()`,
+- przypisanie a kopiowanie obiektów,
+- porównywanie wartości i tożsamości obiektów — `==` i `is`,
+- kopie płytkie i głębokie — `copy.copy()` i `copy.deepcopy()`,
+- współdzielenie zagnieżdżonych obiektów i skutki ich modyfikowania.
+
+### **Przykładowe umiejętności**
+
+Student powinien potrafić:
+
+- napisać funkcję rekurencyjną z poprawnym warunkiem zakończenia,
+- porównać rekurencyjne i iteracyjne rozwiązanie problemu,
+- przetwarzać listy o różnej głębokości zagnieżdżenia,
+- wykorzystać lambdę jako argument innej funkcji,
+- sortować rekordy według jednego lub kilku kryteriów,
+- tworzyć listy składane z przekształcaniem i filtrowaniem elementów,
+- zastosować `map()`, `filter()` i `zip()` do przetwarzania danych,
+- wyjaśnić, dlaczego ponowny odczyt zużytego iteratora nie daje wyników,
+- pobrać argumenty programu z terminala i przekonwertować ich typy,
+- porównać czas wykonania różnych sposobów przetwarzania kolekcji,
+- odczytać rozmiar obiektu i wyjaśnić ograniczenia takiego pomiaru,
+- rozróżnić przypisanie, kopię płytką i kopię głęboką,
+- przewidzieć wpływ modyfikacji zagnieżdżonych danych na ich kopie,
+- tworzyć niezależne warianty danych za pomocą `deepcopy()`,
+- łączyć poznane konstrukcje z funkcjami, plikami tekstowymi i raportowaniem wyników.
+
 # Organizacja katalogów
 
 Każde ćwiczenie znajduje się w osobnym katalogu:
