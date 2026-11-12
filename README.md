@@ -254,7 +254,7 @@ Student powinien potrafić:
 
 ---
 
-## **03 — Wejście/wyjście, pliki tekstowe, math, random, time**
+## **03 — Wejście/wyjście, pliki tekstowe, `math`, `random`, `time`**
 
 ### **Zagadnienia**
 
@@ -297,7 +297,7 @@ Student powinien potrafić:
 
 ---
 
-## **04 — Rekurencja, przetwarzanie kolekcji, sys i kopiowanie danych**
+## **04 — Rekurencja, przetwarzanie kolekcji, `sys` i kopiowanie danych**
 
 ### **Zagadnienia**
 
@@ -341,6 +341,28 @@ Student powinien potrafić:
 - przewidzieć wpływ modyfikacji zagnieżdżonych danych na ich kopie,
 - tworzyć niezależne warianty danych za pomocą `deepcopy()`,
 - łączyć poznane konstrukcje z funkcjami, plikami tekstowymi i raportowaniem wyników.
+
+---
+
+## **05 — Wyjątki, moduły `os` i `datetime`**
+
+### **Zagadnienia**
+
+- przechwytywanie wyjątków przez `try` i `except`, zgłaszanie wyjątków przez `raise` i definiowanie własnego typu wyjątku,
+- obsługa ścieżek i katalogów za pomocą modułu `os`,
+- parsowanie i formatowanie dat oraz obliczanie różnic czasu za pomocą modułu `datetime`,
+- zastosowanie operacji na plikach tekstowych do analizy plików FASTA.
+
+### Przykładowe umiejętności
+
+Student powinien potrafić:
+
+- obsłużyć błędne dane wejściowe i brak katalogu,
+- przejść po plikach FASTA w podanym katalogu i zapisać raport dla każdej sekwencji,
+- uporządkować wydarzenia chronologicznie i obliczyć liczbę dni do terminu.
+
+---
+
 
 # Organizacja katalogów
 
