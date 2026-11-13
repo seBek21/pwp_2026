@@ -163,15 +163,15 @@ Punkty uzyskane podczas ćwiczeń i testów stanowią podstawę oceny z kursu.
 
 | Spotkanie | Temat | Punkty |
 |---:|---|---:|
-| 01 | Podstawy Pythona | 5 |
-| 02 | Kolekcje i operacje na danych | 5 |
-| 03 | Instrukcje sterujące i funkcje | 5 |
-| 04 | Funkcje i przetwarzanie kolekcji | 5 |
+| 01 | Podstawy Pythona: typy danych, operatory i metody typów wbudowanych | 5 |
+| 02 | Instrukcje warunkowe, pętle i definiowanie funkcji | 5 |
+| 03 | Wejście i wyjście, pliki tekstowe oraz moduły `math`, `random` i `time` | 5 |
+| 04 | Wyrażenia `lambda`, listy składane, `map`, `filter`, `zip`, moduł `sys` oraz kopie płytkie i głębokie | 5 |
 | — | **Test praktyczny** | **25** |
-| 05 | Pliki, I/O i moduły | 5 |
-| 06 | Wyjątki, `os`, `datetime` | 5 |
-| 07 | Tekst i wyrażenia regularne | 5 |
-| 08 | OOP i powtórzenie | 5 |
+| 05 | Obsługa wyjątków oraz moduły `os` i `datetime` | 5 |
+| 06 | Przetwarzanie tekstu i wyrażenia regularne (`re`) | 5 |
+| 07 | Programowanie obiektowe: klasy, dziedziczenie i metody specjalne | 5 |
+| 08 | Zagadnienia wybrane przez prowadzącego i powtórzenie | 5 |
 | — | **Test końcowy** | **35** |
 | | **SUMA** | **100** |
 
