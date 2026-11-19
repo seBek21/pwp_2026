@@ -363,6 +363,31 @@ Student powinien potrafić:
 
 ---
 
+## **06 — Wyrażenia regularne — moduł `re`**
+
+### Zagadnienia
+
+- składnia wyrażeń regularnych: klasy znaków, kwantyfikatory, alternatywy, kotwice i granice słów,
+- grupy numerowane, nazwane i nieprzechwytujące oraz odwołania wsteczne,
+- wyszukiwanie i sprawdzanie tekstu przez `search()`, `match()`, `fullmatch()`, `findall()` i `finditer()`,
+- dzielenie i przekształcanie tekstu przez `split()`, `sub()` i `subn()`,
+- kompilowanie wzorców, stosowanie flag i wykorzystanie `re.escape()`,
+- zachłanność dopasowań, lookahead, lookbehind i wyszukiwanie nakładających się trafień,
+- zastosowanie wyrażeń regularnych do analizy sekwencji białkowych w formacie FASTA.
+
+### Przykładowe umiejętności
+
+Student powinien potrafić:
+
+- samodzielnie zaprojektować wzorzec i wyjaśnić znaczenie jego elementów,
+- sprawdzić format całego napisu i wydobyć dane za pomocą grup,
+- przekształcić tekst z wykorzystaniem przechwyconych fragmentów lub funkcji zastępującej,
+- odnaleźć nakładające się motywy białkowe oraz określić ich pozycje i kontekst aminokwasowy,
+- zamaskować pozycje objęte trafieniami i obliczyć pokrycie sekwencji,
+- przygotować raport wyników analizy FASTA i obsłużyć błędne rekordy oraz niepoprawne wzorce.
+
+---
+
 
 # Organizacja katalogów
 
